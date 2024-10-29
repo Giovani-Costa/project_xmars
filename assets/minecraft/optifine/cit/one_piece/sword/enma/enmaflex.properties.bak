@@ -1,0 +1,4 @@
+items=netherite_sword diamond_sword golden_sword iron_sword stone_sword wooden_sword
+model=enmaflex
+hand=main
+nbt.display.Name=pattern:Enma
