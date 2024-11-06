@@ -1,0 +1,5 @@
+type=item
+matchItems=diamond_sword netherite_sword
+model=kikokuoff
+hand=off
+nbt.display.Name=kikoku
