@@ -64,7 +64,7 @@ def downloadand_repack_zip():
         print("File downloaded and repacked successfully")
         with zipfile.ZipFile(xmars_path, "a") as zip_ref:
             with zip_ref.open("version.txt", "w") as file:
-                file.write(ultimo_commit.enconde("utf-8"))
+                file.write(ultimo_commit.encode("utf-8"))
 
         tk.Label(frame, text="Está atualizado na última versão").grid(column=0, row=2)
 
